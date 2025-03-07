@@ -1,0 +1,147 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'rgb(178, 232, 226)',
+  },
+  text: {
+    color: 'whitesmoke',
+    fontFamily: 'Roboto',
+  },
+  header: {
+    backgroundColor: 'black',
+    width: '100%',
+    height: 80,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  headerLogo: {
+    width: 70,
+    height: 70,
+  },
+  nameHeader: {
+    fontSize: 32,
+  },
+  navPanel: {
+    width: '100%',
+    height: 60,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+    backgroundColor: 'rgb(41, 58, 60)',
+  },
+  navElem: {
+    width: 50,
+    height: 50,
+  },
+  mainBlock: {
+    flex: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  titleBlock: {
+    width: '80%',
+    height: 50,
+    backgroundColor: 'black',
+    borderRadius: 25,
+    margin: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: 32,
+    textAlign: 'center',
+  },
+  contentBlock: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+    flexWrap: 'wrap',
+  },
+  card: {
+    width: '90%',
+    minHeight: 180,
+    backgroundColor: 'rgb(28, 28, 28)',
+    borderRadius: 25,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 5,
+    margin: 10,
+  },
+  cardImg: {
+    width: 100,
+    height: 100,
+    borderRadius: 5,
+  },
+  cardPart: {
+    alignItems: 'center',
+    justifyContent:'center',
+    flexDirection: 'column',
+  },
+  cardTitle: {
+    width: 200,
+    minHeight: 25,
+    fontSize: 20,
+    backgroundColor: 'rgb(26, 143, 133)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 25,
+    textAlign: 'center',
+  },
+  cardText: {
+    padding: 5,
+    minHeight: 100,
+    width: 240,
+    fontSize: 18,
+  },
+  cardDate: {
+    textAlign: 'right',
+    width: 240,
+    fontSize: 12,
+  },
+  blockToRow: {
+    flexDirection: 'row',
+  },
+  bigAlbumImg: {
+    width: '46%',
+    aspectRatio: 1,
+    borderRadius: 25,
+    borderWidth: 2,
+    borderColor: 'black',
+    margin: 2,
+  },
+  regForm: {
+    width: '90%',
+    backgroundColor: 'black',
+    borderRadius: 25,
+    height: 600,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  label: {
+    fontSize: 24,
+    margin: 5,
+    color: 'whitesmoke',
+    fontFamily: 'Roboto',
+  },
+  input: {
+    width: 300,
+    fontSize: 24,
+    backgroundColor:'whitesmoke',
+  },
+  button: {
+    width: '60%',
+    height: 60,
+    fontSize: 36,
+    backgroundColor: 'rgb(45, 175, 164)',
+    fontFamily: 'Roboto',
+    borderRadius: 20,
+    margin: 20,
+    color:'whitesmoke',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+export default styles;
